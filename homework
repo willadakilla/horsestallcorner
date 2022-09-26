@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Website for Horse Lovers</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+  .profilepicture {
+    height: 400px;
+    background-image: url("https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-6/306149119_5354924697917014_6827494483286194248_n.jpg?stp=cp6_dst-jpg&_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=RHQNeyeIQYUAX_4rktN&tn=B33yKhK7QE7h58Bu&_nc_ht=scontent-sjc3-1.xx&oh=00_AT9OfATqxOdWIQl6D_D85Ku5HGdqssgSlpyCJQs-09qaqw&oe=6332C2A3");
+    background-size: cover;
+  }
+  .horsepic {
+    height: 400px;
+    background-image: url("https://images.pexels.com/photos/1996338/pexels-photo-1996338.jpeg?cs=srgb&dl=pexels-helena-lopes-1996338.jpg&fm=jpg");
+    background-size: cover;
+  }
+  .jumpingpic {
+    height: 400px;
+    background-image: url("https://equestrianspace.com/wp-content/uploads/2021/05/29-Horse-Jumping-Obstacles-00.jpg");
+    background-size: cover;
+  }
+  </style>
+</head>
+<body>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <h1>Horse my Heart</h1>
+  <p>Come to see us jump!</p> 
+</div>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">About us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Schedule your lesson</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Shows</a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+
+<div class="container" style="margin-top:30px">
+  <div class="row">
+    <div class="col-sm-4">
+      <h2>About Me</h2>
+      <h5>Wei's Stall Corner:</h5>
+      <div class="profilepicture"></div>
+      <p>A very novice rider with advanced love for horses!</p>
+      <h3>Come and ride with us!</h3>
+      <p>Woodside Horse Park.</p>
+      <ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">The Bay Ring Schedule</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Four Wind Ring Schedule</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Covered Arena Schedule</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Don't Click This!You will get addcited with our</a>
+        </li>
+      </ul>
+      <hr class="d-sm-none">
+    </div>
+    <div class="col-sm-8">
+      <h2>New Horse in the barn!</h2>
+      <h5>DragonFax's First Day in the barn, Oct 7, 2022</h5>
+      <div class="horsepic">Fake Image</div>
+      <p>DragonFax is having fun!</p>
+      <p>DragonFax is all on one, he is capble of Dressage, hunter-jupmper, as well as eventing! He is forward but steady, he is fearless but loving. Come and visit him in Woodside!</p>
+      <br>
+      <h2>Woodside Schooling Show</h2>
+      <h5>Madison and Jax winning the blue ribbon, Oct 2, 2022</h5>
+      <div class="jumpingpic">Madison and Jax</div>
+      <p>Jax's first jump with Madison in Woodside</p>
+      <p>"Jax is perfect!"</p>
+    </div>
+  </div>
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <p>Footer</p>
+</div>
+
+</body>
+</html>
